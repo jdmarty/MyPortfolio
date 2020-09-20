@@ -17,3 +17,14 @@ blockquote {
     font-size: 32px;
     margin-top: 2%;
 }
+
+form label {
+    font-size: 24px;
+    font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+textarea {
+    min-height: 400px;
+    padding: 0;
+}
+
