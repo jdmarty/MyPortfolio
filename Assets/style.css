@@ -1,3 +1,8 @@
 li.nav-item {
     font-size: 36px;
 }
+
+.img-thumbnail {
+    object-fit: cover;
+    width: 100%;
+}
