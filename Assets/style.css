@@ -6,3 +6,14 @@ li.nav-item {
     object-fit: cover;
     width: 100%;
 }
+
+    .bio p {
+        font-size: 16px;
+        font-family: 'Raleway', 'Roboto', sans-serif;
+    }
+
+blockquote {
+    font-family: 'Calligraffitti', 'Dancing Script', 'Roboto', cursive, serif;
+    font-size: 32px;
+    margin-top: 2%;
+}
