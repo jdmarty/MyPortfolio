@@ -1,6 +1,10 @@
+/* Supplementary styling */
+
+/* Increase font size of navbar items */
 li.nav-item {
     font-size: 36px;
 }
+
 
 .img-thumbnail {
     object-fit: cover;
@@ -34,3 +38,19 @@ textarea {
     object-fit: cover;
 }
 
+a {
+    font-size: 24px
+}
+
+#linkedinLogo {
+    color: #2867B2;
+}
+
+#facebookLogo {
+    color: #4267B2;
+    background-color: white;
+}
+
+i {
+    margin-right: 32px;
+}
