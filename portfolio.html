@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Link to Booswatch CDN for Slate Themer -->
     <link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/slate/bootstrap.min.css' >
+    <!-- Kit for fontawesome logos -->
     <script src="https://kit.fontawesome.com/2122334227.js" crossorigin="anonymous"></script>
+    <!-- Link for google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Dancing+Script&family=Open+Sans&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Internal link to fontawesome favicon -->
     <link rel="icon" type="image/svg" href="./Assets/Images/otter-regular.svg" alt="Otter svg from FontAwesome"/>
+    <!-- Link to supplementary css file -->
     <link rel="stylesheet" href='Assets/style.css'>
     <title>Joshua's Portfolio</title>
 </head>
 <body>
+    <!-- Navbar containing brand logo and navigation links -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <!-- Brand logo -->
         <a class="navbar-brand" href="./index.html">
             <img src="Assets/Images/otter-regular.svg" alt="otter logo" width="70" height="70" />
         </a>
+        <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- navbar menu collapsed on mobile -->
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav ml-auto mr">
                 <li class="nav-item">
@@ -32,17 +43,23 @@
             </ul>
         </div>
     </nav>
+    <!-- Main content containing header and single row section -->
     <main class="container-lg container-fluid">
+        <!-- Header containing on h1 and one hr -->
         <header class="row text-center">
             <div class="col text-center">
                 <h1 class="display-4">My Portfolio</h1>
                 <hr>
             </div>
         </header>
+        <!-- Section row containing 3 columns will format to single column on md or smaller -->
         <section class="row">
+            <!-- Column 1 Codecademy projects -->
             <section class="col-12 col-lg-4 px-0 px-lg-2">
-                <h1 class="text-center bg-secondary text-primary rounded">Codecademy</h1>
-                <article class="card my-4" >
+                <!-- h2 for Codecademy section -->
+                <h2 class="text-center bg-secondary text-primary rounded">Codecademy</h2>
+                <!-- Boostrap card Jammming -->
+                <article class="card my-4 border" >
                     <img src="./Assets/Images/jammming_codecademy.PNG" class="card-img-top mx-lg-0 mx-5 px-lg-0 px-5" alt="Jamming with JD">
                     <div class="card-body text-center">
                         <h5 class="card-title">Jammming with JD</h5>
@@ -51,7 +68,8 @@
                         <a href="https://github.com/jdmarty/jammming/" target="_blank" class="btn btn-primary">Repository</a>
                     </div>
                 </article>
-                <article class="card my-4" >
+                <!-- Boostrap card Adhoc -->
+                <article class="card my-4 border" >
                     <img src="./Assets/Images/adhoc_codecademy.PNG" class="card-img-top mx-lg-0 mx-5 px-lg-0 px-5" alt="Adhoc Bootstrap">
                     <div class="card-body text-center">
                         <h5 class="card-title">Adhoc Bootstrap</h5>
@@ -60,7 +78,8 @@
                         <a href="https://github.com/jdmarty/Adhoc_Bootstrap" target="_blank" class="btn btn-primary">Repository</a>
                     </div>
                 </article>
-                <article class="card my-4" >
+                <!-- Boostrap card Choredoor -->
+                <article class="card my-4 border" >
                     <img src="./Assets/Images/choredoor_codecademy.PNG" class="card-img-top mx-lg-0 mx-5 px-lg-0 px-5" alt="Chore Door">
                     <div class="card-body text-center">
                         <h5 class="card-title">Chore Door</h5>
@@ -70,9 +89,12 @@
                     </div>
                 </article>
             </section>
+            <!-- Column 2 UCI projects -->
             <section class="col-12 col-lg-4 px-0 px-lg-2">
-                <h1 class="text-center bg-secondary text-primary rounded">UCI Bootcamp</h1>
-                <article class="card my-4" >
+                <!-- h2 for UCI Bootcamp section -->
+                <h2 class="text-center bg-secondary text-primary rounded">UCI Bootcamp</h2>
+                <!-- Boostrap card horiseon -->
+                <article class="card my-4 border" >
                     <img src="./Assets/Images/horiseon_bootcamp.PNG" class="card-img-top mx-lg-0 mx-5 px-lg-0 px-5" alt="Horiseon">
                     <div class="card-body text-center">
                         <h5 class="card-title">Horiseon</h5>
@@ -81,7 +103,8 @@
                         <a href="https://github.com/jdmarty/horiseonCodeRefractor" target="_blank" class="btn btn-primary">Repository</a>
                     </div>
                 </article>
-                <article class="card my-4" >
+                <!-- Boostrap card placeholder -->
+                <article class="card my-4 border" >
                     <img src="https://via.placeholder.com/150x100?text=Coming+Soon!" class="card-img-top card-img-top mx-lg-0 mx-5 px-lg-0 px-5" alt="Coming Soon">
                     <div class="card-body text-center">
                         <h5 class="card-title">Coming Soon!</h5>
@@ -92,7 +115,8 @@
                         <a href="#" class="btn btn-primary disabled">Repository</a>
                     </div>
                 </article>
-                <article class="card my-4" >
+                <!-- Boostrap card placeholder -->
+                <article class="card my-4 border" >
                     <img src="https://via.placeholder.com/150x100?text=Coming+Soon!" class="card-img-top card-img-top mx-lg-0 mx-5 px-lg-0 px-5" alt="Coming Soon">
                     <div class="card-body text-center">
                         <h5 class="card-title">Coming Soon!</h5>
@@ -104,9 +128,12 @@
                     </div>
                 </article>
             </section>
+            <!-- Column 3 just for fun projects -->
             <section class="col-12 col-lg-4 px-0 px-lg-2">
-                <h1 class="text-center bg-secondary text-primary rounded">Just for Fun</h1>
-                <article class="card my-4" >
+                <!-- h2 for Just For Fun section -->
+                <h2 class="text-center bg-secondary text-primary rounded">Just for Fun</h2>
+                <!-- Boostrap card Diceroller 3 -->
+                <article class="card my-4 border" >
                     <img src="./Assets/Images/DiceRoller3_JFF.PNG" class="card-img-top card-img-top mx-lg-0 mx-5 px-lg-0 px-5" alt="Dice Roller Version 3">
                     <div class="card-body text-center">
                         <h5 class="card-title">Dice Roller Version 3</h5>
@@ -115,7 +142,8 @@
                         <a href="https://github.com/jdmarty/DiceRoller3" class="btn btn-primary">Repository</a>
                     </div>
                 </article>
-                <article class="card my-4" >
+                <!-- Boostrap card Diceroller 2 -->
+                <article class="card my-4 border" >
                     <img src="./Assets/Images/DiceRoller2_JFF.PNG" class="card-img-top card-img-top mx-lg-0 mx-5 px-lg-0 px-5" alt="Dice Roller Version 2">
                     <div class="card-body text-center">
                         <h5 class="card-title">Dice Roller Version 2</h5>
@@ -124,7 +152,8 @@
                         <a href="https://github.com/jdmarty/DiceRoller2" target="_blank"class="btn btn-primary">Repository</a>
                     </div>
                 </article>
-                <div class="card my-4" >
+                <!-- Boostrap card Diceroller 3 -->
+                <div class="card my-4 border" >
                     <img src="./Assets/Images/DiceRoller1_JFF.PNG" class="card-img-top card-img-top mx-lg-0 mx-5 px-lg-0 px-5" alt="Dice Roller Version 1">
                     <div class="card-body text-center">
                         <h5 class="card-title">Dice Roller Version 1</h5>
@@ -136,6 +165,7 @@
             </section>
         </section>
     </main>
+    <!-- Footer with links to social media and github -->
     <footer class="text-center my-2">
         <a href="https://www.linkedin.com/in/joshua-marty-22a544a2/" target="_blank">LinkedIn</a>
         <i class="fab fa-lg fa-linkedin" id="linkedinLogo"></i>
@@ -144,7 +174,7 @@
         <a href="https://www.facebook.com/joshua.marty.752/" target="_blank">Facebook</a>
         <i class="fab fa-lg fa-facebook-square" id="facebookLogo"></i>
     </footer>
-
+    <!-- Scripts to run jquery, popper, and boostrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
