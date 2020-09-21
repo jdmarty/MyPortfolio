@@ -30,6 +30,7 @@ textarea {
 
 .card-img-top {
     height: 200px;
-    object-fit: contain;
+    width: inherit;
+    object-fit: cover;
 }
 
