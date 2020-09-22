@@ -44,11 +44,11 @@ textarea {
 }
 
 /* Colors and styles for brand logos */
-#linkedinLogo {
+.linkedinLogo {
     color: #2867B2;
 }
 
-#facebookLogo {
+.facebookLogo {
     color: #4267B2;
     background-color: white;
 }
