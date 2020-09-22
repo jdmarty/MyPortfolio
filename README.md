@@ -2,7 +2,7 @@
 
 ## Links
 - Deployed [https://jdmarty.github.io/MyPortfolio/](https://jdmarty.github.io/MyPortfolio/)
-- Repository [https://github.com/jdmarty/MyPortfolio] (https://github.com/jdmarty/MyPortfolio)
+- Repository [https://github.com/jdmarty/MyPortfolio](https://github.com/jdmarty/MyPortfolio)
 
 ![My Portfolio](https://github.com/jdmarty/MyPortfolio/blob/master/Assets/Images/deployed_screencap.PNG)
 
