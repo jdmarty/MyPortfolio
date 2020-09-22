@@ -4,7 +4,7 @@
 - Deployed [https://jdmarty.github.io/MyPortfolio/](https://jdmarty.github.io/MyPortfolio/)
 - Repository [https://github.com/jdmarty/MyPortfolio] (https://github.com/jdmarty/MyPortfolio)
 
-![My Portfolio](https://jdmarty/github.com/MyPortoflio/Assets/Images/deployed_screencap.png)
+![My Portfolio](https://github.com/jdmarty/MyPortfolio/blob/master/Assets/Images/deployed_screencap.PNG)
 
 ## Features
 This site was developed with Bootstrap and incorporates a simple grid system to create a responsive layyout. As a rule, items that would normally display in multiple columns will display in a single column on medium or smaller screens
