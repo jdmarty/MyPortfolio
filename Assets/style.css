@@ -1,5 +1,9 @@
 /* Supplementary styling */
 
+/* Body Background */
+body {
+    background-image: url(./Images/double-bubble-dark.png);
+}
 /* Increase font size of navbar items */
 li.nav-item {
     font-size: 36px;
