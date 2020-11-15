@@ -46,7 +46,7 @@
     <!-- Main content containing header and single row section -->
     <main class="container-lg container-fluid">
         <!-- Header containing on h1 and one hr -->
-        <header class="row">
+        <header class="row p-0">
             <div class="col text-center px-0 px-lg-2">
                 <h1 class="display-4">My Portfolio</h1>
                 <hr>
@@ -54,8 +54,8 @@
         </header>
         <!-- Jumbotron to show current highlighted project -->
         <section class="row">
-            <div class="col">
-                <div class="jumbotron container py-4 my-0" id="highlightDisplay">
+            <div class="col px-0 px-lg-2">
+                <div class="jumbotron py-4 mb-2" id="highlightDisplay">
                     <div class="row">
                         <div class="col-lg-6 col-12">
                             <img src="" class="w-100 px-lg-0 rounded" alt="Code Quiz App" id="HLImage">
@@ -77,31 +77,7 @@
             </div>
         </section>
         <!-- Cards for each project -->
-        <section class="row">
-            <div class="col-lg-4 col-12">
-                <article class="card my-4 border" >
-                    <img src="Assets/Images/codeQuiz.PNG" class="card-img-top px-lg-0 px-5" alt="Code Quiz App">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Code Quiz</h5>
-                    </div>
-                </article>
-            </div>
-            <div class="col-lg-4 col-12">
-                <article class="card my-4 border" >
-                    <img src="./Assets/Images/nutriSpot.PNG" class="card-img-top px-lg-0 px-5" alt="Nutrispot">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">NutriSpot</h5>
-                    </div>
-                </article>
-            </div>
-            <div class="col-lg-4 col-12">
-                <article class="card my-4 border" >
-                    <img src="Assets/Images/PasswordGenerator.PNG" class="card-img-top px-lg-0 px-5" alt="Password Generator">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Password Generator</h5>
-                    </div>
-                </article>
-            </div>
+        <section class="row" id="cardsRow">
         </section>
 
 
@@ -150,7 +126,7 @@
                 <h2 class="text-center bg-secondary text-primary rounded">Codecademy</h2>
                 <!-- Boostrap card Jammming -->
                 <article class="card my-4 border" >
-                    <img src="./Assets/Images/jammming_codecademy.PNG" class="card-img-top card-img-top px-lg-0 px-5" alt="Jamming with JD">
+                    <img src="./Assets/Images/jammming_codecademy.PNG" class="card-img-top px-lg-0 px-5" alt="Jamming with JD">
                     <div class="card-body text-center">
                         <h5 class="card-title">Jammming with JD</h5>
                         <p class="card-text text-left">An app built with React and the Spotify API that allows users to search the Spotify library and create new playlists.</p>

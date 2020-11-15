@@ -79,6 +79,33 @@ const passwordGenerator = {
   deployedLink: "https://jdmarty.github.io/scrambledPasswordGenerator/",
 };
 
-const Projects = [codeQuiz, nutriSpot, passwordGenerator]
+const jammming = {
+  title: "Jammming with JD",
+  image: {
+    src: "./Assets/Images/jammming_codecademy.PNG",
+    alt: "Jamming with JD",
+  },
+  description:
+    "An app built with React and the Spotify API that allows users to search the Spotify library and create new playlists.",
+  tech: ["React", "Spotify API", "JavaScript"],
+  languagePercent: [
+    {
+      name: "JavaScript",
+      percent: 75,
+    },
+    {
+      name: "CSS",
+      percent: 18,
+    },
+    {
+      name: "HTML",
+      percent: 7,
+    },
+  ],
+  repoLink: "https://github.com/jdmarty/jammming/",
+  deployedLink: "http://jammmingwithjd.surge.sh/",
+};
+
+const Projects = [codeQuiz, nutriSpot, passwordGenerator, jammming]
 
 export default Projects

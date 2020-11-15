@@ -30,4 +30,33 @@ function renderHighlight(project) {
     $("#HLdeployLink").attr("href", project.deployedLink);
 }
 
+function renderCards(projects) {
+    projects.forEach((project, index) => {
+        //create elements
+        const column = $("<div>").addClass('col-lg-4 col-12 px-0 px-lg-2');
+        const card = $('<article>')
+            .addClass('card my-2 border')
+            .attr('data-index', index);
+        const cardImg = $("<img>")
+          .addClass("card-img-top px-0")
+          .attr("src", project.image.src)
+          .attr("alt", project.image.alt)
+        const cardText = $("<div>")
+          .addClass("card-body text-center")
+          .html(`<h5 class="card-title">${project.title}</h5>`);
+        //create card with event listener
+        card
+            .append(cardImg, cardText)
+            .on('click', (e) => {
+                const index = $(e.currentTarget).attr('data-index')
+                renderHighlight(Projects[index])
+            })
+        //append card and column
+        column.append(card)
+        $('#cardsRow').append(column)
+    })
+}
+
+renderCards(Projects)
+
 renderHighlight(Projects[0])
