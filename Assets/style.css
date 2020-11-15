@@ -1,5 +1,6 @@
 /* Supplementary styling */
 
+/* Home */
 /* Body Background */
 body {
     background-image: url("./Images/double-bubble-dark.png");
@@ -28,6 +29,8 @@ blockquote {
     margin-top: 2%;
 }
 
+
+/* Portfolio */
 /* Control size of images on cards for portfolio */
 .card-img-top {
     height: 200px;
@@ -35,6 +38,15 @@ blockquote {
     object-fit: cover;
 }
 
+/* Control size of highlight image */
+#HLImage {
+    height: 100%;
+    width: inherit;
+    object-fit: cover;
+}
+
+
+/* Contacts */
 /* Increase font size and style for contact page*/
 form label, a {
     font-size: 24px;
