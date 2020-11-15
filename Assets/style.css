@@ -45,6 +45,14 @@ blockquote {
     object-fit: cover;
 }
 
+/* Class to show active project */
+.activeProject {
+    box-shadow: 6px 6px 5px #42c972; 
+}
+
+.projectCard:hover {
+    box-shadow: 6px 6px 5px #888888;
+}
 
 /* Contacts */
 /* Increase font size and style for contact page*/

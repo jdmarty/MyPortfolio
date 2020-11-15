@@ -33,7 +33,7 @@ const nutriSpot = {
   },
   description:
     "Application that uses the Spoonacular and Yelp API to combine a healthy recipe search and a search for local restaurants",
-  tech: ["Bulma CSS", "jQuery", 'Spoonacular API', 'Yelp API'],
+  tech: ["Bulma CSS", "jQuery", "Spoonacular API", "Yelp API"],
   languagePercent: [
     {
       name: "JavaScript",
@@ -49,7 +49,7 @@ const nutriSpot = {
     },
   ],
   repoLink: "https://github.com/jdmarty/scoop",
-  deployedLink: "https://github.com/jdmarty/codeQuiz",
+  deployedLink: "https://jdmarty.github.io/scoop/",
 };
 
 const passwordGenerator = {
@@ -60,7 +60,7 @@ const passwordGenerator = {
   },
   description:
     "Simple site that prompts you to enter password criteria and generates a scrambled password that meets those criteria",
-  tech: ["HTML/CSS", "JavaScript"],
+  tech: ["HTML", "CSS", "JavaScript"],
   languagePercent: [
     {
       name: "JavaScript",
@@ -106,6 +106,6 @@ const jammming = {
   deployedLink: "http://jammmingwithjd.surge.sh/",
 };
 
-const Projects = [codeQuiz, nutriSpot, passwordGenerator, jammming]
+const Projects = [nutriSpot, codeQuiz, jammming, passwordGenerator]
 
 export default Projects

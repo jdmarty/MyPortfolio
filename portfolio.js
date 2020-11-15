@@ -16,13 +16,14 @@ function renderHighlight(project) {
     const progressColor = ["success", "warning", "danger"];
     project.languagePercent.forEach((lang, index) => {
         const language = $("<div>")
-            .addClass(`progress-bar bg-${progressColor[index]} text-dark`)
-            .attr('style', `width: ${lang.percent}%`)
-            .attr('role', 'progressbar')
-            .attr('aria-valuenow', `${lang.percent}`)
-            .attr('aria-valuemin', '0')
-            .attr('arai-valuemax', '100')
-            .text(`${lang.name} ${lang.percent}%`)
+          .addClass(`progress-bar bg-${progressColor[index]} text-dark`)
+          .attr("style", `width: 0%`)
+          .attr("role", "progressbar")
+          .attr("aria-valuenow", `${lang.percent}`)
+          .attr("aria-valuemin", "0")
+          .attr("arai-valuemax", "100")
+          .text(`${lang.name} ${lang.percent}%`)
+          .animate({ width: `${lang.percent}%` }, 100);
         $('#HLLanguage').append(language)
     })
     //links
@@ -35,7 +36,7 @@ function renderCards(projects) {
         //create elements
         const column = $("<div>").addClass('col-lg-4 col-12 px-0 px-lg-2');
         const card = $('<article>')
-            .addClass('card my-2 border')
+            .addClass(`card my-2 ${index === 0 && 'activeProject'} projectCard`)
             .attr('data-index', index);
         const cardImg = $("<img>")
           .addClass("card-img-top px-0")
@@ -49,6 +50,8 @@ function renderCards(projects) {
             .append(cardImg, cardText)
             .on('click', (e) => {
                 const index = $(e.currentTarget).attr('data-index')
+                $('.projectCard').removeClass('activeProject')
+                $(e.currentTarget).addClass('activeProject')
                 renderHighlight(Projects[index])
             })
         //append card and column

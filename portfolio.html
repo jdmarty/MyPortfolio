@@ -52,21 +52,25 @@
                 <hr>
             </div>
         </header>
-        <!-- Jumbotron to show current highlighted project -->
+        <!-- Top Row containing jumbotron to display highlighted projects -->
         <section class="row">
             <div class="col px-0 px-lg-2">
+                <!-- Jumbotron containing a single row -->
                 <div class="jumbotron py-4 mb-2" id="highlightDisplay">
                     <div class="row">
+                        <!-- First Column to hold highlighted image -->
                         <div class="col-lg-6 col-12">
-                            <img src="" class="w-100 px-lg-0 rounded" alt="Code Quiz App" id="HLImage">
+                            <img src="" class="px-lg-0 rounded" alt="Code Quiz App" id="HLImage">
                         </div>
+                        <!-- Second Column to hold information -->
                         <div class="col-lg-6 col-12">
                             <h1 class="display-4 text-center" id="HLTitle"></h1>
                             <p class="lead" id="HLDescription"></p>
-                            <ul class="list-group list-group-horizontal justify-content-center" id="HLTech">
-                            </ul>
+                            <ul class="list-group list-group-horizontal justify-content-center" id="HLTech"></ul>
+                            <!-- Progress bar -->
                             <div class="progress my-4" id="HLLanguage">
                             </div>
+                            <!-- Links -->
                             <div class="text-center">
                                 <a href="" target="_blank" class="btn btn-primary" id="HLdeployLink">Deployed</a>
                                 <a href="" target="_blank" class="btn btn-primary" id="HLrepoLink">Repository</a>
@@ -79,122 +83,9 @@
         <!-- Cards for each project -->
         <section class="row" id="cardsRow">
         </section>
-
-
-        <br><br><br><br><br>
-        <!-- Section row containing 3 columns will format to single column on md or smaller -->
-        <section class="row">
-            <!-- Column 1 UCI projects -->
-            <section class="col-12 col-lg-4 px-0 px-lg-2">
-                <!-- h2 for UCI Bootcamp section -->
-                <h2 class="text-center bg-secondary text-primary rounded">UCI Bootcamp</h2>
-                <!-- Boostrap card nutrispot -->
-                <article class="card my-4 border" >
-                    <img src="./Assets/Images/nutriSpot.PNG" class="card-img-top card-img-top px-lg-0 px-5" alt="Nutrispot">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">NutriSpot</h5>
-                        <p class="card-text text-left">Application that uses the Spoonacular and Yelp API to combine a healthy recipe search and a search for local restaurants</p>
-                        <a href="https://jdmarty.github.io/scoop/" target="_blank" class="btn btn-primary">Deployed</a>
-                        <a href="https://github.com/jdmarty/scoop" target="_blank" class="btn btn-primary">Repository</a>
-                    </div>
-                </article>
-                <!-- Boostrap card code quiz -->
-                <article class="card my-4 border" >
-                    <img src="Assets/Images/codeQuiz.PNG" class="card-img-top card-img-top px-lg-0 px-5" alt="Code Quiz App">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Code Quiz</h5>
-                        <p class="card-text text-left">Quiz app that prompts the user to answer web-development related questions and maintains a high score board</p>
-                        <a href="https://jdmarty.github.io/codeQuiz/" target="_blank" class="btn btn-primary">Deployed</a>
-                        <a href="https://github.com/jdmarty/codeQuiz" target="_blank" class="btn btn-primary">Repository</a>
-                    </div>
-                </article>
-                <!-- Boostrap card password generator -->
-                <article class="card my-4 border" >
-                    <img src="Assets/Images/PasswordGenerator.PNG" class="card-img-top card-img-top px-lg-0 px-5" alt="Password Generator">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Password Generator</h5>
-                        <p class="card-text text-left">Simple site that prompts you to enter password criteria and generates a scrambled password that meets those criteria</p>
-                        <a href="https://jdmarty.github.io/scrambledPasswordGenerator/" target="_blank" class="btn btn-primary">Deployed</a>
-                        <a href="https://github.com/jdmarty/scrambledPasswordGenerator" target="_blank" class="btn btn-primary">Repository</a>
-                    </div>
-                </article>
-
-            </section>
-            <!-- Column 2 Codecademy projects -->
-            <section class="col-12 col-lg-4 px-0 px-lg-2">
-                <!-- h2 for Codecademy section -->
-                <h2 class="text-center bg-secondary text-primary rounded">Codecademy</h2>
-                <!-- Boostrap card Jammming -->
-                <article class="card my-4 border" >
-                    <img src="./Assets/Images/jammming_codecademy.PNG" class="card-img-top px-lg-0 px-5" alt="Jamming with JD">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Jammming with JD</h5>
-                        <p class="card-text text-left">An app built with React and the Spotify API that allows users to search the Spotify library and create new playlists.</p>
-                        <a href="http://jammmingwithjd.surge.sh/" target="_blank" class="btn btn-primary">Deployed</a>
-                        <a href="https://github.com/jdmarty/jammming/" target="_blank" class="btn btn-primary">Repository</a>
-                    </div>
-                </article>
-                <!-- Boostrap card Adhoc -->
-                <article class="card my-4 border" >
-                    <img src="./Assets/Images/adhoc_codecademy.PNG" class="card-img-top card-img-top px-lg-0 px-5" alt="Adhoc Bootstrap">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Adhoc Bootstrap</h5>
-                        <p class="card-text text-left">A quick practice project to learn Bootstrap, used existing assets to create a basic mobile responsive website</p>
-                        <a href="https://jdmarty.github.io/Adhoc_Bootstrap/" target="_blank" class="btn btn-primary">Deployed</a>
-                        <a href="https://github.com/jdmarty/Adhoc_Bootstrap" target="_blank" class="btn btn-primary">Repository</a>
-                    </div>
-                </article>
-                <!-- Boostrap card Choredoor -->
-                <article class="card my-4 border" >
-                    <img src="./Assets/Images/choredoor_codecademy.PNG" class="card-img-top card-img-top px-lg-0 px-5" alt="Chore Door">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Chore Door</h5>
-                        <p class="card-text text-left">A practice project that uses JavaScript DOM Manipulation to create a simple, luck based game that responds to user clicks.</p>
-                        <a href="https://jdmarty.github.io/choreDoor/" target="_blank" class="btn btn-primary">Deployed</a>
-                        <a href="https://github.com/jdmarty/choreDoor" target="_blank" class="btn btn-primary">Repository</a>
-                    </div>
-                </article>
-            </section>
-            
-            <!-- Column 3 just for fun projects -->
-            <section class="col-12 col-lg-4 px-0 px-lg-2">
-                <!-- h2 for Just For Fun section -->
-                <h2 class="text-center bg-secondary text-primary rounded">Just for Fun</h2>
-                <!-- Boostrap card Diceroller 3 -->
-                <article class="card my-4 border" >
-                    <img src="./Assets/Images/DiceRoller3_JFF.PNG" class="card-img-top card-img-top px-lg-0 px-5" alt="Dice Roller Version 3">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Dice Roller Version 3</h5>
-                        <p class="card-text text-left">The third iteration of a simple Dice Roller practice project, this time with REACT! This is still a work in progress, so it is not yet deployed.</p>
-                        <a href="#" class="btn btn-primary disabled">Coming Soon!</a>
-                        <a href="https://github.com/jdmarty/DiceRoller3" target="_blank" class="btn btn-primary">Repository</a>
-                    </div>
-                </article>
-                <!-- Boostrap card Diceroller 2 -->
-                <article class="card my-4 border" >
-                    <img src="./Assets/Images/DiceRoller2_JFF.PNG" class="card-img-top card-img-top px-lg-0 px-5" alt="Dice Roller Version 2">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Dice Roller Version 2</h5>
-                        <p class="card-text text-left">The second iteration of the Dice Roller practice project, now implementing jQuery and more visually active user interface.</p>
-                        <a href="https://jdmarty.github.io/DiceRoller2/" target="_blank" class="btn btn-primary">Deployed</a>
-                        <a href="https://github.com/jdmarty/DiceRoller2" target="_blank" class="btn btn-primary">Repository</a>
-                    </div>
-                </article>
-                <!-- Boostrap card Diceroller 3 -->
-                <div class="card my-4 border" >
-                    <img src="./Assets/Images/DiceRoller1_JFF.PNG" class="card-img-top card-img-top px-lg-0 px-5" alt="Dice Roller Version 1">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Dice Roller Version 1</h5>
-                        <p class="card-text text-left">The first Dice Roller I ever made, using basic JavaScript and HTML to render a table of rolled values. Ugly, but it works!</p>
-                        <a href="https://jdmarty.github.io/DiceRoller/" target="_blank" class="btn btn-primary">Deployed</a>
-                        <a href="https://github.com/jdmarty/DiceRoller" target="_blank" class="btn btn-primary">Repository</a>
-                    </div>
-                </div>
-            </section>
-        </section>
     </main>
     <!-- Footer with links to social media and github -->
-    <footer class="text-center my-2">
+    <footer class="text-center mt-4">
         <a href="https://www.linkedin.com/in/joshua-marty-22a544a2/" target="_blank">LinkedIn</a>
         <i class="fab fa-lg fa-linkedin linkedinLogo"></i>
         <a href="https://github.com/jdmarty" target="_blank">Github</a>
