@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link to Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- Link to Booswatch CDN for Slate Themer -->
+    <!-- Link to Booswatch CDN for Slate Theme -->
     <link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/slate/bootstrap.min.css' >
     <!-- Kit for fontawesome logos -->
     <script src="https://kit.fontawesome.com/2122334227.js" crossorigin="anonymous"></script>
@@ -55,27 +55,22 @@
         <!-- Jumbotron to show current highlighted project -->
         <section class="row">
             <div class="col">
-                <div class="jumbotron container py-4 my-0">
+                <div class="jumbotron container py-4 my-0" id="highlightDisplay">
                     <div class="row">
-                        <div class="col-6">
-                            <img src="Assets/Images/codeQuiz.PNG" class="w-100 px-lg-0 px-5 rounded" alt="Code Quiz App">
+                        <div class="col-lg-6 col-12">
+                            <img src="" class="w-100 px-lg-0 rounded" alt="Code Quiz App" id="HLImage">
                         </div>
-                        <div class="col-6">
-                            <h1 class="display-4">Code Quiz</h1>
-                            <p class="lead">Quiz app that prompts the user to answer web-development related questions and maintains a high score board.</p>
-                            <ul class="list-group list-group-horizontal">
-                                <li class="list-group-item">HTML</li>
-                                <li class="list-group-item">CSS</li>
-                                <li class="list-group-item">Bootstrap</li>
-                                <li class="list-group-item">jQuery</li>
+                        <div class="col-lg-6 col-12">
+                            <h1 class="display-4 text-center" id="HLTitle"></h1>
+                            <p class="lead" id="HLDescription"></p>
+                            <ul class="list-group list-group-horizontal justify-content-center" id="HLTech">
                             </ul>
-                            <div class="progress my-4">
-                                <div class="progress-bar bg-success text-dark" style="width: 77%" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100">JavaScript 77%</div>
-                                <div class="progress-bar bg-warning text-dark" style="width: 12%" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100">CSS 12%</div>
-                                <div class="progress-bar bg-danger text-dark" style="width: 12%" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100">HTML 11%</div>
+                            <div class="progress my-4" id="HLLanguage">
                             </div>
-                            <a href="https://jdmarty.github.io/codeQuiz/" target="_blank" class="btn btn-primary">Deployed</a>
-                            <a href="https://github.com/jdmarty/codeQuiz" target="_blank" class="btn btn-primary">Repository</a>
+                            <div class="text-center">
+                                <a href="" target="_blank" class="btn btn-primary" id="HLrepoLink">Deployed</a>
+                                <a href="" target="_blank" class="btn btn-primary" id="HLdeployLink">Repository</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -231,8 +226,10 @@
         <i class="fab fa-lg fa-facebook-square facebookLogo"></i>
     </footer>
     <!-- Scripts to run jquery, popper, and boostrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- My Script -->
+    <script src='portfolio.js'></script>
 </body>
 </html>
