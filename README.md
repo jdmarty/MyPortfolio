@@ -17,8 +17,6 @@ This site was developed with Bootstrap and incorporates a simple grid system to 
 ## Planned future features
 - A high res profile picture to replace the frankly embarassing one I have right now on my bio
 - Links to more complex portfolio projects to be updated as I progress in the Bootcamp
-- A carousel to cycle through pinned projects
-- A working Contact Me form on the contacts page
 
 ### Enjoy!
 
