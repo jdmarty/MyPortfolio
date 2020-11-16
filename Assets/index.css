@@ -15,7 +15,7 @@ a {
 }
 
 /* Increase size of bio page font */
-.bio p {
+.bio p, h5 {
     font-size: 16px;
     font-family: 'Raleway', 'Roboto', sans-serif;
 }
@@ -27,3 +27,4 @@ blockquote {
     margin-top: 2%;
 }
 
+/* Stack tokens */
