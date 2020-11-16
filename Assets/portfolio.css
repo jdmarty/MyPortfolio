@@ -1,0 +1,22 @@
+/* Control size of images on cards for portfolio */
+.card-img-top {
+    height: 200px;
+    width: inherit;
+    object-fit: cover;
+}
+
+/* Control size of highlight image */
+#HLImage {
+    height: 100%;
+    width: inherit;
+    object-fit: cover;
+}
+
+/* Class to show active project */
+.activeProject {
+    box-shadow: 6px 6px 5px #42c972; 
+}
+
+.projectCard:hover {
+    box-shadow: 6px 6px 5px #888888;
+}

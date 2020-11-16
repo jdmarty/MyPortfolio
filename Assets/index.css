@@ -1,0 +1,29 @@
+/* Body Background */
+body {
+    background-image: url("./Images/double-bubble-dark.png");
+}
+
+a {
+    font-size: 24px;
+    font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+/* Style thumbnail picture for home page */
+.img-thumbnail {
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Increase size of bio page font */
+.bio p {
+    font-size: 16px;
+    font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+/* Add special font and resize blockquote */
+blockquote {
+    font-family: 'Calligraffitti', 'Dancing Script', 'Roboto', cursive, serif;
+    font-size: 32px;
+    margin-top: 2%;
+}
+
